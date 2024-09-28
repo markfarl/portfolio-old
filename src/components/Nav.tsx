@@ -9,7 +9,6 @@ function classNames(...classes: any[]) {
   }
   
   
-
 export default function Nav(){
     return(
         <Disclosure as="nav" className="bg-gray-800">
