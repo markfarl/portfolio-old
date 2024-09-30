@@ -1,5 +1,5 @@
 {
-  "homepage": "https://markfarl.github.io",
+  "homepage": "https://markfarl.github.io/portfolio",
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
@@ -7,9 +7,9 @@
   "scripts": {
     "test": "jest --config --no-cache --coverage",
     "dev": "vite",
-    "build": "gh-pages -d dist",
     "predeploy": "npm run build",
-    "deploy": "tsc -b && vite build",
+    "deploy": "gh-pages -d dist",
+    "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
